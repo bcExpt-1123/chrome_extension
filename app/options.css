@@ -1,0 +1,91 @@
+body, html {
+    /*background-color: #ddd;*/
+    font-family: "Segoe UI",Ubuntu,"lucida grande",tahoma,sans-serif !important;
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+
+input[type=text] {
+    font-family: "Segoe UI",Ubuntu,"lucida grande",tahoma,sans-serif !important;
+    border: 0;
+    background-color: #f2f2f2;
+    border-radius: 3px;
+    padding: 5px;
+    width: 100%
+}
+
+    input[type=text]:focus, input[type=checkbox]:focus {
+        outline-width: 0;
+        background-color: #fff
+    }
+
+#domainBlacklist {
+    height: 150px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    border: 0;
+    padding: 5px;
+    resize: vertical
+}
+
+.button {
+    cursor: pointer;
+    outline-width: 0;
+    border: 0;
+    color: #000;
+    font-size: 14px;
+    border-radius: 3px;
+    padding: 6px 15px 6px 15px;
+    margin: 0 0 0 5px
+}
+
+    .button:hover {
+        background-color: rgba(0,0,0,0.1) !important
+    }
+
+#buttons {
+    margin: 20px 0 0 350px;
+    text-align: right
+}
+
+#main-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    position: relative
+}
+
+#body-container {
+    border: 5px solid orange;
+    border-radius: 20px;
+    padding: 20px 20px 30px 20px;
+    margin: 20px
+}
+
+#logo {
+    margin: 0 0 20px 0;
+    position: relative
+}
+
+    #logo h1, #logo h3 {
+        font-family: "Segoe UI",Ubuntu,"lucida grande",tahoma,sans-serif !important;
+        margin: 0;
+        padding: 0
+    }
+
+.textbox {
+    border: 2px solid #FFF;
+    font-size: 14px;
+    margin-bottom: 8px
+}
+
+table tr td {
+    padding: 8px 0 0 0;
+    vertical-align: top
+}
+
+#status {
+    visibility: hidden
+}
